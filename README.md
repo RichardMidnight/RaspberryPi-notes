@@ -1,6 +1,16 @@
 # RaspberryPi notes, tips, tricks
 
 
+# favorate tools
+
+imager    sudo apt install rpi-imager
+
+pikiss
+
+block 60fps videos in chromium
+
+
+
 neofetch
 
 Partition editor:   gparted
