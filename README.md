@@ -23,6 +23,15 @@ System info GUI:  hardinfo (lshw-gtk, sysinfo)
 
 System info CLI:  inxi (inxi -Fx), lshw, hwinfo
 
+Botspot PiApps link on GitHub 
+
+      https://github.com/Botspot/pi-apps
+      
+      git clone https://github.com/Botspot/pi-apps
+
+      ~/pi-apps/install
+      
+
 .
 
 # Helpful commands
