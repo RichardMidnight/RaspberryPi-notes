@@ -15,6 +15,50 @@ System info CLI:  inxi (inxi -Fx), lshw, hwinfo
 
 .
 
+# Helpful commands
+
+Hardware and OS:   uname -a
+
+hardware: uname -m
+
+hardware: gpio -v
+
+CPU: uname -p
+
+OS: uname -o
+
+computer name: hostname
+
+serial number: cat /proc/cpuinfo | grep Serial
+
+OS: cat /etc/os-release | grep PRETTY | cut -d'"' -f2
+
+
+# Networking:
+
+IP address: hostname -I
+
+LAN IP : ifconfig eth0 | grep "inet "
+
+WAN IP: ifconfig wlan0 | grep "inet "
+
+list wifi AP:  sudo iwlist wlan0 scan | grep ESSID | cut -d: -f2 | sort | uniq
+
+# Update software:
+
+  sudo apt update
+  
+  sudo apt upgrade
+  
+  sudo apt autoremove
+  
+  sudo apt update-full
+
+Install SW: sudo apt-get install gparted -y
+
+
+
+
 # Printing
 
 Printer support:  cups and system-config-printer
