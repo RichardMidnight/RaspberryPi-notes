@@ -77,11 +77,15 @@ list wifi AP:  sudo iwlist wlan0 scan | grep ESSID | cut -d: -f2 | sort | uniq
 
 Install SW: sudo apt-get install gparted -y
 
+Raspberry pi 400 firmware update
 
-sudo apt update
-sudo apt dist-upgrade
-sudo apt install rpi-eeprom
-sudo rpi-eeprom-update
+      sudo apt update
+
+      sudo apt dist-upgrade
+
+      sudo apt install rpi-eeprom
+
+      sudo rpi-eeprom-update
 
 
 
