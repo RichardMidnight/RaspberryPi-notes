@@ -1,7 +1,7 @@
 # RaspberryPi notes, tips, tricks
 
 
-# favorate tools
+# favorite tools
 
 imager    sudo apt install rpi-imager
 
@@ -71,9 +71,17 @@ list wifi AP:  sudo iwlist wlan0 scan | grep ESSID | cut -d: -f2 | sort | uniq
   
   sudo apt autoremove
   
-  sudo apt update-full
+  sudo apt full-upgrade
+  
+  sudo rpi-update  (only if needed)
 
 Install SW: sudo apt-get install gparted -y
+
+
+sudo apt update
+sudo apt dist-upgrade
+sudo apt install rpi-eeprom
+sudo rpi-eeprom-update
 
 
 
