@@ -65,17 +65,16 @@ list wifi AP:  sudo iwlist wlan0 scan | grep ESSID | cut -d: -f2 | sort | uniq
 
 # Update software:
 
-  sudo apt update
-  
-  sudo apt upgrade
-  
-  sudo apt autoremove
-  
-  sudo apt full-upgrade
-  
-  sudo rpi-update  (only if needed)
+        sudo apt update
 
-Install SW: sudo apt-get install gparted -y
+        sudo apt upgrade
+
+        sudo apt autoremove
+
+        sudo apt full-upgrade
+
+        sudo rpi-update  (only if needed)
+
 
 Raspberry pi 400 firmware update
 
