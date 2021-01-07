@@ -38,7 +38,7 @@ Botspot PiApps link on GitHub
 
 Hardware and OS:   uname -a
 
-hardware: uname -m
+hardware: uname -m   (shows if you are running 64 bit)
 
 hardware: gpio -v
 
