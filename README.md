@@ -11,7 +11,7 @@ You can put already-installed apps on the menu:
       
  You can install other Debian software with "Preferences" / "add/remove software" but it can be complicated.
  
- You can install "Botspot PiApps" as shown below
+ You can install "Botspot PiApps" - Raspberry Pi App Store for Open Source Projects
 
       https://github.com/Botspot/pi-apps
       
