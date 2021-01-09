@@ -1,19 +1,38 @@
-# RaspberryPi notes, tips, tricks
+
+# Recommnded Apps
 
 
-# favorite tools
 
-imager    sudo apt install rpi-imager
+# Recommended Utilities
+
+neofetch
+
+      sudo apt install newfetch
+
+      neofetch
+
+imager    
+
+      sudo apt install rpi-imager
+
+gparted
+
+      sudo apt install gparted
+
+Botspot PiApps link on GitHub 
+
+      https://github.com/Botspot/pi-apps
+      
+      git clone https://github.com/Botspot/pi-apps
+
+      ~/pi-apps/install
+
+
+# Other
 
 pikiss
 
 block 60fps videos in chromium
-
-
-
-neofetch
-
-Partition editor:   gparted
 
 NTFS support:   ntfs-3g
 
@@ -23,13 +42,7 @@ System info GUI:  hardinfo (lshw-gtk, sysinfo)
 
 System info CLI:  inxi (inxi -Fx), lshw, hwinfo
 
-Botspot PiApps link on GitHub 
 
-      https://github.com/Botspot/pi-apps
-      
-      git clone https://github.com/Botspot/pi-apps
-
-      ~/pi-apps/install
       
 
 .
