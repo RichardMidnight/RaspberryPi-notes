@@ -1,5 +1,5 @@
 
-# Recommnded Apps
+# Recommnded Apps Management Tools
 
 You can put already-installed apps on the menu:
       
@@ -9,10 +9,22 @@ You can put already-installed apps on the menu:
       
       go to "Preferences" / "Recomended Software"  
       
- You can install other Debian software with "Preferences" / "add/remove software" but it is complicated.
+ You can install other Debian software with "Preferences" / "add/remove software" but it can be complicated.
  
- You can install "pi-apps" as shown below
+ You can install "Botspot PiApps" as shown below
+
+      https://github.com/Botspot/pi-apps
+      
+      git clone https://github.com/Botspot/pi-apps
+
+      ~/pi-apps/install
  
+
+
+# Recomended Apps
+
+TBD
+
 
 # Recommended Utilities
 
@@ -36,13 +48,7 @@ gparted
 
       sudo apt install gparted
 
-Botspot PiApps link on GitHub 
 
-      https://github.com/Botspot/pi-apps
-      
-      git clone https://github.com/Botspot/pi-apps
-
-      ~/pi-apps/install
 
 
 # Other
@@ -62,7 +68,7 @@ System info GUI:  hardinfo (lshw-gtk, sysinfo)
 System info CLI:  inxi (inxi -Fx), lshw, hwinfo
 
 
-# Desktop options
+# Desktop environments
 
 Install standard Linux Desktop Environments:
 
