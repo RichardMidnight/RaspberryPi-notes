@@ -78,9 +78,9 @@ Twister OS offers great customization to Raspberry pi OS. But not small images
 
       www.twisteros.com
       
-Easy light-weight windows theme
+BotSpot Windows 10 theme - Easy light-weight windows theme
       
-      TBD
+      https://github.com/Botspot/Windows-10
 
 .
 
