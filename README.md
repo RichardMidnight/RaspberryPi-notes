@@ -1,7 +1,18 @@
 
 # Recommnded Apps
 
-
+You can put already-installed apps on the menu:
+      
+      go to "Preferences"  / "Main Menu Editor"
+      
+ You can install Raspberry Pi recomended apps:
+      
+      go to "Preferences" / "Recomended Software"  
+      
+ You can install other Debian software with "Preferences" / "add/remove software" but it is complicated.
+ 
+ You can install "pi-apps" as shown below
+ 
 
 # Recommended Utilities
 
@@ -43,7 +54,19 @@ System info GUI:  hardinfo (lshw-gtk, sysinfo)
 System info CLI:  inxi (inxi -Fx), lshw, hwinfo
 
 
+# Desktop options
+
+Install standard Linux Desktop Environments:
+
+       TBD
+       
+Twister OS offers great customization to Raspberry pi OS. But not small images
+
+      www.twisteros.com
       
+Easy light-weight windows theme
+      
+      TBD
 
 .
 
