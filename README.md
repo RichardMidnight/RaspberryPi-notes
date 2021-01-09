@@ -16,6 +16,12 @@ You can put already-installed apps on the menu:
 
 # Recommended Utilities
 
+
+"sd" - create and flash sd images
+
+      www.github.com/RichardMidnight/sd
+
+
 neofetch
 
       sudo apt install newfetch
@@ -42,6 +48,8 @@ Botspot PiApps link on GitHub
 # Other
 
 pikiss
+
+CommanderPi
 
 block 60fps videos in chromium
 
