@@ -154,3 +154,32 @@ DYMO: printer-driver-dymo
 Zebra:
 
 
+
+# Raspberry Pi OS 64 bit  (in beta as of Jan 2021)
+
+Get the 64bit image
+
+      https://downloads.raspberrypi.org/raspios_arm64/images/
+      
+How do I know if I am running 64-bit Kernel?
+
+      Use neofetch
+      
+      or
+      
+      uname -m
+      
+How do I know if a probram is 64-bit?
+
+      which [filename]
+      
+      file [filename]
+      
+      example, determine which version of zip you are running
+      
+      which zip
+      
+      file \usr\bin\zip
+      
+
+
