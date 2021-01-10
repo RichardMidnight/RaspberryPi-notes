@@ -67,6 +67,8 @@ System info GUI:  hardinfo (lshw-gtk, sysinfo)
 
 System info CLI:  inxi (inxi -Fx), lshw, hwinfo
 
+switch to root: sudo su root
+
 
 # Desktop environments
 
