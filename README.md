@@ -21,7 +21,7 @@ You can put already-installed apps on the menu:
  
 
 
-# Recomended Apps
+# Recommended Apps
 
 TBD
 
@@ -40,7 +40,7 @@ neofetch - show system info
 
       neofetch
 
-imager - write image files to sd card    
+rpi-imager - write image files to sd card    
 
       sudo apt install rpi-imager
 
@@ -71,27 +71,15 @@ Resource monitor alternative:  gnome-system-monitor
 
 System info GUI:  hardinfo (lshw-gtk, sysinfo)
 
-System info CLI:  inxi (inxi -Fx), lshw, hwinfo
+System info CLI:  inxi (inxi -Fx),  lshw,  hwinfo
 
 
 
 
 # Desktop environments
 
-Install standard Linux Desktop Environments:
-
-       TBD
-       
-Twister OS offers great customization to Raspberry pi OS. But not small images
-
-      www.twisteros.com
-      
-BotSpot Windows 10 theme - Easy light-weight windows theme
-      
-      https://github.com/Botspot/Windows-10
-
-## Install and switch to different Debian desktop environments. (watch out - unstable! seems to break wifi and other things)
-      
+## Install standard Linux Desktop Environments.  watch out - unstable! seems to break wifi and other things
+             
 Install other desktop environments: 
 
       sudo tasksel
@@ -99,8 +87,18 @@ Install other desktop environments:
 Switch to a different desktop environment:
       
       sudo update-alternatives --config x-session-manager
+      
+ ## Other options     
+       
+BotSpot Windows 10 theme - Easy light-weight windows theme
+      
+      https://github.com/Botspot/Windows-10
+      
+Twister OS offers great customization to Raspberry pi OS. But not small images
 
-
+      www.twisteros.com
+   
+.   
 
 # Helpful commands
 
@@ -159,7 +157,7 @@ Raspberry pi 400 firmware update
 
 
 
-# Printing
+# Printing (2019)
 
 Printer support:  cups and system-config-printer
 
@@ -189,7 +187,7 @@ How do I know if I am running 64-bit Kernel?
       
       uname -m
       
-How do I know if a probram is 64-bit?
+How do I know if a program is 64-bit?
 
       which [filename]
       
@@ -197,9 +195,9 @@ How do I know if a probram is 64-bit?
       
       example, determine which version of zip you are running
       
-      which zip
+      which bash
       
-      file \usr\bin\zip
+      file \usr\bin\bash
       
 
 
