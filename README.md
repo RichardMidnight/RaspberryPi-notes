@@ -127,7 +127,7 @@ LAN IP : ifconfig eth0 | grep "inet "
 
 WAN IP: ifconfig wlan0 | grep "inet "
 
-list wifi AP:  sudo iwlist wlan0 scan | grep ESSID | cut -d: -f2 | sort | uniq
+list wifi AP:  sudo iwlist wlan0 scan | grep ESSID | grep -v '""' | cut -d: -f2 | sort | uniq
 
 # Update software:
 
