@@ -81,10 +81,15 @@ Twister OS offers great customization to Raspberry pi OS. But not small images
 BotSpot Windows 10 theme - Easy light-weight windows theme
       
       https://github.com/Botspot/Windows-10
+.
 
-Install and switch to different desktop environments. (watch out! seems to break wifi)
+### Install and switch to different Debian desktop environments. (watch out! seems to break wifi)
       
+Install other desktop environments: 
+
       sudo tasksel
+      
+Switch to a different desktop environment:
       
       sudo update-alternatives --config x-session-manager
 
