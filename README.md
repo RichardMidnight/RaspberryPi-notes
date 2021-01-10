@@ -1,13 +1,13 @@
 
-# Recommnded Apps Management Tools
+# Recommended Apps Management Tools
 
 You can put already-installed apps on the menu:
       
       go to "Preferences"  / "Main Menu Editor"
       
- You can install Raspberry Pi recomended apps:
+ You can install Raspberry Pi recommended apps:
       
-      go to "Preferences" / "Recomended Software"  
+      go to "Preferences" / "Recommended Software"  
       
  You can install other Debian software with "Preferences" / "add/remove software" but it can be complicated.
  
@@ -121,7 +121,7 @@ OS: cat /etc/os-release | grep PRETTY | cut -d'"' -f2
 
 # Networking:
 
-IP address: hostname -I
+IP address: hostname -i
 
 LAN IP : ifconfig eth0 | grep "inet "
 
