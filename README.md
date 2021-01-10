@@ -69,7 +69,7 @@ System info GUI:  hardinfo (lshw-gtk, sysinfo)
 
 System info CLI:  inxi (inxi -Fx), lshw, hwinfo
 
-switch to root: sudo su root
+
 
 
 # Desktop environments
@@ -99,6 +99,8 @@ Switch to a different desktop environment:
 
 
 # Helpful commands
+
+Switch to root: sudo su
 
 Hardware and OS:   uname -a
 
