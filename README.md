@@ -53,6 +53,8 @@ gparted
 
 # Other
 
+great reference:  https://www.ubuntupit.com/useful-raspberry-pi-commands/
+
 pikiss
 
 CommanderPi
