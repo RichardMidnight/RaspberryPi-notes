@@ -34,19 +34,23 @@ TBD
       www.github.com/RichardMidnight/sd
 
 
-neofetch
+neofetch - show system info
 
       sudo apt install newfetch
 
       neofetch
 
-imager    
+imager - write image files to sd card    
 
       sudo apt install rpi-imager
 
-gparted
+gparted - partition disks
 
       sudo apt install gparted
+
+catfish - file search
+
+      sudo apt install catfish
 
 
 
