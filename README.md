@@ -82,7 +82,13 @@ BotSpot Windows 10 theme - Easy light-weight windows theme
       
       https://github.com/Botspot/Windows-10
 
-.
+Install and switch to different desktop environments. (watch out! seems to break wifi)
+      
+      sudo tasksel
+      
+      sudo update-alternatives --config x-session-manager
+
+
 
 # Helpful commands
 
