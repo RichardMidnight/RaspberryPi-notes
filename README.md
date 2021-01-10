@@ -86,7 +86,7 @@ BotSpot Windows 10 theme - Easy light-weight windows theme
       
       https://github.com/Botspot/Windows-10
 
-## Install and switch to different Debian desktop environments. (watch out! seems to break wifi)
+## Install and switch to different Debian desktop environments. (watch out - unstable! seems to break wifi and other things)
       
 Install other desktop environments: 
 
