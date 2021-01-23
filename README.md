@@ -28,6 +28,13 @@ TBD
 
 # Recommended Utilities
 
+pisafe - create and flash sd images with a GUI
+
+      wget https://raw.githubusercontent.com/RichardMidnight/pi-safe/main/pisafe
+      bash pisafe
+      
+      Then you can select 'install' from the pisafe menu to install it into the Raspbian menu
+
 
 "sd" - create and flash sd images
 
