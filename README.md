@@ -43,7 +43,7 @@ pisafe - create and flash sd images with a GUI
 
 neofetch - show system info
 
-      sudo apt install newfetch
+      sudo apt install neofetch
 
       neofetch
 
