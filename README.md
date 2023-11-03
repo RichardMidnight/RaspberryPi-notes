@@ -80,6 +80,7 @@ System info GUI:  hardinfo (lshw-gtk, sysinfo)
 
 System info CLI:  inxi (inxi -Fx),  lshw,  hwinfo
 
+Stacer
 
 
 
