@@ -95,6 +95,10 @@ Install other desktop environments:
 Switch to a different desktop environment:
       
       sudo update-alternatives --config x-session-manager
+
+For a Windows-like experience:
+      Install the **KDE/Plasma DE**
+      For even more: you can install a windows theme with "**global theme**"
       
  ## Other options     
        
