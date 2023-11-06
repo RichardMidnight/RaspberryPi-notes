@@ -98,8 +98,8 @@ Switch to a different desktop environment:
 
 For a Windows-like experience:
 
-      Install the **KDE/Plasma DE**
-      For even more: you can install a windows theme with "**global theme**"
+      Install the "KDE/Plasma DE"
+      For even more: you can install a windows theme with "global theme"
       
  ## Other options     
        
