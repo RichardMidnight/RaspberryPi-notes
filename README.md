@@ -117,6 +117,8 @@ Twister OS offers great customization to Raspberry pi OS. But not small images
 
 Switch to root: sudo su
 
+Add user to sudo group:   sudo adduser <user> sudo
+
 Hardware and OS:   uname -a
 
 hardware: uname -m   (shows if you are running 64 bit)
