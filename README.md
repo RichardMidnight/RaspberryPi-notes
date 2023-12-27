@@ -168,6 +168,18 @@ Raspberry pi 400 firmware update
       sudo rpi-eeprom-update
 
 
+Raspberry pi 5 boot nvme
+
+      Make sure your Raspberry Pi 5 firmware is up to date with the 2023-12-06 or later version. Software update on the RPi OS should do this for you, but you can force it by running sudo rpi-eeprom-update in the Terminal. 
+
+      If you have updated your firmware and want to boot from the NVMe drive, you might have to get technical and run sudo rpi-eeprom-config --edit from the Terminal and change the BOOT_ORDER to be 0x416 instead of 0x41.
+
+      To enable experimental and not-officially-supported PCIe 3 mode, add the follow line to the [all] section at the end of your Raspberry Pi /boot/config.txt file like this:
+
+      [all]
+      dtparam=pciex1_gen=3
+      
+      Save and reboot - your drive is ready to use!
 
 
 # Printing (2019)
