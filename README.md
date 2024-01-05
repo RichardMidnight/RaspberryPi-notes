@@ -150,7 +150,8 @@ list wifi AP (may need sudo):  iwlist wlan0 scan | grep ESSID | grep -v '""' | c
 
 
 
-# Update software:  Generally includes distribution and firmware updates
+# Update software:  
+Generally includes distribution and firmware updates
 
         sudo apt update
 
@@ -161,11 +162,11 @@ list wifi AP (may need sudo):  iwlist wlan0 scan | grep ESSID | grep -v '""' | c
         sudo reboot
         
 
-# upgrades and autoremove     
+# upgrade and autoremove     
 
         sudo apt full-upgrade
 
-# script to update kernal and firmware           
+# script to update kernal and firmware to bleading edge     
 
         sudo rpi-update  (only if needed)
 
@@ -188,7 +189,9 @@ Update Raspberry pi 4 firmware
 
       sudo reboot
 
-      ref: www.tomshardware.com/how-to/upgrade-pi-os-to-bullseye-from-buster
+Upgrade to bullseye-from-buster      
+
+      https://www.tomshardware.com/how-to/upgrade-raspberry-pi-os-to-bullseye-from-buster
 
 
 Raspberry pi 5 boot nvme
