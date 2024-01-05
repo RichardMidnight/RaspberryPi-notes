@@ -148,35 +148,58 @@ WAN IP: ifconfig wlan0 | grep "inet "
 
 list wifi AP (may need sudo):  iwlist wlan0 scan | grep ESSID | grep -v '""' | cut -d: -f2 | sort | uniq
 
-# Update software:
+
+
+# Update software:  Generally includes distribution and firmware updates
 
         sudo apt update
 
         sudo apt upgrade
 
-        sudo apt autoremove
+        sudo apt autoremove  (optional)
+
+        sudo reboot
+        
+
+# upgrades and autoremove     
 
         sudo apt full-upgrade
+
+# script to update kernal and firmware           
 
         sudo rpi-update  (only if needed)
 
 
-Raspberry pi 400 firmware update
+# Update Firmware Pi4 and up newer?
+
+Update repositories lists
 
       sudo apt update
 
-      sudo apt dist-upgrade
+Fully upgrade your installation      
+
+      sudo apt dist-upgrade -y
+
+Update Raspberry pi 4 firmware
 
       sudo apt install rpi-eeprom
 
       sudo rpi-eeprom-update
+
+      sudo reboot
+
+      ref: www.tomshardware.com/how-to/upgrade-pi-os-to-bullseye-from-buster
 
 
 Raspberry pi 5 boot nvme
 
       Make sure your Raspberry Pi 5 firmware is up to date with the 2023-12-06 or later version. Software update on the RPi OS should do this for you, but you can force it by running sudo rpi-eeprom-update in the Terminal. 
 
-      If you have updated your firmware and want to boot from the NVMe drive, you might have to get technical and run sudo rpi-eeprom-config --edit from the Terminal and change the BOOT_ORDER to be 0x416 instead of 0x41.
+      If you have updated your firmware and want to boot from the NVMe drive, you might have to get technical and run 
+      
+      sudo rpi-eeprom-config --edit 
+      
+      from the Terminal and change the BOOT_ORDER to be 0x416 instead of 0x41.
 
       To enable experimental and not-officially-supported PCIe 3 mode, add the follow line to the [all] section at the end of your Raspberry Pi /boot/config.txt file like this:
 
@@ -184,6 +207,7 @@ Raspberry pi 5 boot nvme
       dtparam=pciex1_gen=3
       
       Save and reboot - your drive is ready to use!
+
 
 
 # Printing (2019)
